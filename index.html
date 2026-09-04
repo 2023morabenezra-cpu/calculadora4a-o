@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Científica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <section class="display">
+      <div id="expression">0</div>
+      <div id="result"></div>
+    </section>
+
+    <section class="scientific-grid">
+      <button data-action="sin">sin</button>
+      <button data-action="cos">cos</button>
+      <button data-value="(">(</button>
+      <button data-value=")">)</button>
+      <button data-action="tan">tan</button>
+
+      <button data-action="log">log</button>
+      <button data-action="ln">ln</button>
+      <button data-action="power">xʸ</button>
+      <button data-action="root">ʸ√x</button>
+      <button data-action="mode">MODE</button>
+
+      <button data-action="store">STO</button>
+      <button data-action="recall">RCL</button>
+      <button data-action="clear">FCN</button>
+      <button data-action="inverse">INV</button>
+      <button data-action="memoryAdd">M+</button>
+    </section>
+
+    <section class="keypad">
+      <button data-value="7">7</button>
+      <button data-value="8">8</button>
+      <button data-value="9">9</button>
+      <button class="operator" data-value="+">+</button>
+      <button data-action="percent">%</button>
+
+      <button data-value="4">4</button>
+      <button data-value="5">5</button>
+      <button data-value="6">6</button>
+      <button class="operator" data-value="-">−</button>
+      <button class="operator" data-value="*">×</button>
+
+      <button data-value="1">1</button>
+      <button data-value="2">2</button>
+      <button data-value="3">3</button>
+      <button class="operator plus-tall" data-value="+">+</button>
+      <button data-action="sqrt">√</button>
+
+      <button data-value="0">0</button>
+      <button data-value=".">.</button>
+      <button class="equals" data-action="equals">=</button>
+      <button data-action="sqrt">√</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
